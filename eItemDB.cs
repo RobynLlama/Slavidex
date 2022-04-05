@@ -56,6 +56,7 @@ namespace Slavidex.ItemsDB
         public static Item Spray_Paint_Blue = new Item("Spray Can (Blue)", "Can be used to paint your vehicle");
         public static Item Spray_Paint_Red = new Item("Spray Can (Red)", "Can be used to paint your vehicle");
         public static Item Spray_Paint_Green = new Item("Spray Can (Green)", "Can be used to paint your vehicle");
+        public static Item Spray_Paint_Yellow = new Item("Spray Can (Yellow)", "Can be used to paint your vehicle");
 
         /********** TRADE GOODS **********/
 
@@ -97,27 +98,48 @@ namespace Slavidex.ItemsDB
         public static Item Rus_310_Wheel_Rear = new Item ("Rus-310 Wheel (Rear)","Can't drive without these");
         public static Item Rus_310_Suspension_Front = new Item ("Rus-310 Suspension (Front)","Smooths out the bumps");
         public static Item Rus_310_Suspension_Rear = new Item ("Rus-310 Suspension (Rear)","Smooths out the bumps");
+        public static Item Rus_310_Door = new Item ("Rus-310 Door","Stops you falling out of the cab while driving");
         public static Item Rus_310_Seat_Single = new Item ("Rus-310 Driver's Seat","Your butt goes here");
         public static Item Rus_310_Seat_Passenger = new Item ("Rus-310 Passanger's Seat","Good for napping");
+        public static Item Rus_310_Bumper = new Item ("Rus-310 Bumper", "For bumping");
+        public static Item Rus_310_Hood = new Item ("Rus-310 Hood", "Keeps the engine safe");
 
         /********** ZAKMAT **********/
         public static Item Frame_Zakmat = new Item ("Zakmat Frame", "A shell of a formerly great Zakmat Truck. Its just the frame, bring your own truck");
+        public static Item Zakmat_Wheel_Front = new Item ("Zakmat Wheel (Front)","Can't drive without these");
+        public static Item Zakmat_Wheel_Rear = new Item ("Zakmat Wheel (Rear)","Can't drive without these");
         public static Item Zakmat_Suspension_Front = new Item ("Zakmat Suspension (Front)","Smooths out the bumps");
         public static Item Zakmat_Suspension_Rear = new Item ("Zakmat Suspension (Rear)","Smooths out the bumps");
+        public static Item Zakmat_Seat_Single = new Item ("Zakmat Driver's Seat","Your butt goes here");
+        public static Item Zakmat_Seat_Passenger = new Item ("Zakmat Passenger's Seat","Someone else's butt goes here");
+        public static Item Zakmat_Seat_Bed = new Item ("Zakmat Sleeper Bed","Good for napping");
+        public static Item Zakmat_Door = new Item ("Zakmat Door","Stops you falling out of the cab while driving");
         public static Item Jerkin_Radiator = new Item ("Jerkin Radiator","Has a higher coolant capacity than the RUS-310");
         public static Item Jerkin_Diesel_5L = new Item ("Jerkin 120HP Diesel Engine", "A fine fuel conserving engine");
+        public static Item Zakmat_Hood = new Item ("Zakmat Hood", "Keeps the engine safe");
+        public static Item Zakmat_Bumper = new Item ("Zakmat Bumper", "For bumping");
 
         /********** POLOSKA **********/
         public static Item Car_Poloska = new Item ("Poloska-621", "A small two door vehicle with a rear mounted engine");
         public static Item Poloska_Engine = new Item ("Poloska-621 23HP Engine","vroom!");
         public static Item Poloska_Suspension_Front = new Item ("Poloska Suspension (Front)", "Squeaky");
         public static Item Poloska_Suspension_Rear = new Item ("Poloska Suspension (Rear)", "Squeaky");
+        public static Item Poloska_Wheel = new Item ("Poloska Wheel", "A small tire for the Poloska");
+        public static Item Poloska_Hood = new Item ("Poloska Hood", "Nothing actually goes under here..");
+        public static Item Poloska_Door = new Item ("Poloska Door", "Keeps you from falling out while driving");
+        public static Item Poloska_Bumper = new Item ("Poloska Bumper", "For bumping");
+        public static Item Poloska_Rearshelf = new Item ("Poloska Rearshelf", "Divides the main cab from the engine bay");
+        public static Item Poloska_Engine_Cover = new Item ("Poloska Engine Cover", "Keeps the engine safe");
 
         /********** SPECIAL **********/
         public static Item Delivery_Parcel = new Item ("Packages", "Deliver this to a destination for money");
         public static Item Vehicle_Repairs = new Item ("Repair Vehicle", "Fully repairs the current vehicle (purchased from the register at Vehicle Shops)");
         public static Item Real_Estate = new Item ("Shack", "A bare shack to lay your head down in");
         public static Item Motel_Room = new Item ("Motel Room", $"A night at {Slaveria.myName}'s finest establishment");
+        public static Item Car_Parts = new Item ("Scrap Car Parts", "Price Varies");
+
+        /********** TRUCK BEDS **********/
+        public static Item Rus_310_Covered_Wooden_Bed = new Item ("Covered Wooden Bed", "A spacious bed with a covering to protect your cargo");
 
 
     }

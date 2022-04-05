@@ -12,7 +12,7 @@ namespace Slavidex
         static void Main(string[] args)
         {
             Console.WriteLine("Debugging Slavidex:");
-            Functions.TripCalc(Balarsk.getLocation, Lupova.getLocation, RoundTrip: true);
+            Magyarfalu.getLocation.DisplayInfo(true, true, true);
         }
     }
 }
