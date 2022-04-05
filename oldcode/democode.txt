@@ -1,0 +1,55 @@
+            //This code was used to generate some demo locations to test printing item names and prices
+            //It will not work once the new item enum is implemented
+            
+            Location demoLoc = new Location("Coolsville", "Coolsville is a very cool place with no notable features or nearby points of interest.");
+            Location demo2 = new Location("Snoresburg", "Snoresburg is pretty mild overall. No notable features or nearby points of interest");
+            Merchant _merch;
+
+            _merch = new Merchant("Some Bar");
+            _merch.AddExportItem("Schnapps", 1200);
+            _merch.AddExportItem("Beer", 210);
+            _merch.AddExportItem("Bread", 380);
+
+            demoLoc.AddVendor(_merch);
+
+            _merch = new Merchant("Russian Grocer");
+            _merch.AddExportItem("Slavli", 1400);
+            _merch.AddExportItem("Kolbasa", 890);
+            _merch.AddExportItem("Map", 15000);
+
+            demoLoc.AddVendor(_merch);
+
+            _merch = new Merchant("Materials Vendor");
+            _merch.AddExportItem("Empty Barrel", 6900);
+            _merch.AddExportItem("Empty Pallets", 70000);
+            _merch.AddImportItem("Concrete Slabs", 35000);
+            _merch.AddImportItem("Bricks", 86000);
+
+            demoLoc.AddVendor(_merch);
+            demoLoc.SetMaterialVendor(_merch);
+
+            _merch = new Merchant("Some other Bar");
+            _merch.AddExportItem("Schnapps", 1200);
+            _merch.AddExportItem("Beer", 190);
+            _merch.AddExportItem("Bread", 310);
+
+            demo2.AddVendor(_merch);
+
+            _merch = new Merchant("Big Vadim's Sundries");
+            _merch.AddExportItem("Slavli", 1200);
+            _merch.AddExportItem("Kolbasa", 920);
+            _merch.AddExportItem("Compass", 8000);
+
+            demo2.AddVendor(_merch);
+
+            _merch = new Merchant("Materials Vendor");
+            _merch.AddExportItem("Pipes", 6300);
+            _merch.AddExportItem("Empty Pallets", 72000);
+            _merch.AddExportItem("Scrap Metal", 28000);
+            _merch.AddImportItem("Empty Barrels", 8000);
+
+            demo2.AddVendor(_merch);
+            demo2.SetMaterialVendor(_merch);
+
+            demoLoc.DisplayInfo(vDetailed:true, eDetailed:true);
+            demo2.DisplayInfo(true, true);

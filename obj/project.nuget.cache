@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "2pZcGRXXOBfFjg/7sQ2o3BqyEbrI10ls1jAkC14zJKXUCqtdPFS2YVREVACDhXaPxuO4dJhrTKLhXW5kGCYLgA==",
+  "success": true,
+  "projectFilePath": "/home/qtmims/Documents/C#/SlavCalc/SlavCalc.csproj",
+  "expectedPackageFiles": [
+    "/home/qtmims/.nuget/packages/microsoft.netframework.referenceassemblies/1.0.0/microsoft.netframework.referenceassemblies.1.0.0.nupkg.sha512",
+    "/home/qtmims/.nuget/packages/microsoft.netframework.referenceassemblies.net472/1.0.0/microsoft.netframework.referenceassemblies.net472.1.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

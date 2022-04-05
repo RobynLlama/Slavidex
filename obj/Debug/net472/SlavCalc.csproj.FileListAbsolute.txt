@@ -1,0 +1,8 @@
+/home/qtmims/Documents/C#/SlavCalc/bin/Debug/net472/SlavCalc.exe.config
+/home/qtmims/Documents/C#/SlavCalc/bin/Debug/net472/SlavCalc.exe
+/home/qtmims/Documents/C#/SlavCalc/bin/Debug/net472/SlavCalc.pdb
+/home/qtmims/Documents/C#/SlavCalc/obj/Debug/net472/SlavCalc.AssemblyInfoInputs.cache
+/home/qtmims/Documents/C#/SlavCalc/obj/Debug/net472/SlavCalc.AssemblyInfo.cs
+/home/qtmims/Documents/C#/SlavCalc/obj/Debug/net472/SlavCalc.csproj.CoreCompileInputs.cache
+/home/qtmims/Documents/C#/SlavCalc/obj/Debug/net472/SlavCalc.exe
+/home/qtmims/Documents/C#/SlavCalc/obj/Debug/net472/SlavCalc.pdb
