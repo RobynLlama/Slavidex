@@ -8,11 +8,11 @@ namespace Slavidex {
 
         //A list of items the merchant will sell
         private List<Listing> mySoldItems;
-        public List<Listing> getSoldItems => mySoldItems;
+        public List<Listing> getExports => mySoldItems;
 
         //A list of items the merchant will purchase
         private List<Listing> myPurchasedItems;
-        public List<Listing> getBuyItems => myPurchasedItems;
+        public List<Listing> getImports => myPurchasedItems;
 
         //A list of contracts the merchant offers
         private List<Contract> myContracts;
@@ -21,11 +21,23 @@ namespace Slavidex {
         public bool HasImports => myPurchasedItems.Count > 0;
         public bool HasContracts => myContracts.Count > 0;
 
+        public bool useInTripCalc
+        {
+            get;
+            protected set;
+        }
+
         public Merchant(string name, string info = "No Extra Info") : base(name, info)
         {
             mySoldItems = new List<Listing>();
             myPurchasedItems = new List<Listing>();
             myContracts = new List<Contract>();
+            useInTripCalc = false;
+        }
+
+        public void setTripCalcFlag(bool flag = true)
+        {
+            useInTripCalc = flag;
         }
 
         public void AddExportItem(Listing itemName)

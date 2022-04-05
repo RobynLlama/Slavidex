@@ -41,6 +41,7 @@ namespace Slavidex.LocationsDB
 
                 //Sawmill
                 Merchant _temp = new Merchant($"{myName} Sawmill");
+                _temp.setTripCalcFlag();
                 _temp.AddExportItem(new Listing(GameItem.Pallet_Planks, 81500));
                 _temp.AddExportItem(new Listing(GameItem.Pallet_Empty, 59700));
                 _temp.AddImportItem(new Listing(GameItem.Pallet_Log, 81500));
@@ -87,6 +88,7 @@ namespace Slavidex.LocationsDB
 
                 //Kovalenko's Builders Merchant
                 _temp = new Merchant("Kovalenko's Builders Merchant");
+                _temp.setTripCalcFlag();
                 _temp.AddExportItem(new Listing(GameItem.Pallet_Pipes, 65000));
                 _temp.AddExportItem(new Listing(GameItem.Barrel_Empty, 6100));
                 _temp.AddExportItem(new Listing(GameItem.Pallet_Scrapmetal, 25000));
@@ -106,7 +108,6 @@ namespace Slavidex.LocationsDB
                 _temp.AddImportItem(new Listing(GameItem.Metal_Sheet, 3500));
 
                 _myLoc.AddVendor(_temp);
-                _myLoc.SetMaterialVendor(_temp);
             }
             
             return _myLoc;

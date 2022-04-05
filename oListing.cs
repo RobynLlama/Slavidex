@@ -22,7 +22,7 @@ namespace Slavidex
 
         public override string ToString()
         {
-            return myItem.ToString().PadRight(Program.itemSpacing) + Helpers.SlavFormat(myPrice);
+            return myItem.ToString().PadRight(Program.detailedListItemSpacing) + Helpers.SlavFormat(myPrice);
         }
     }
 }

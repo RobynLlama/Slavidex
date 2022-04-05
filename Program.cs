@@ -7,12 +7,12 @@ namespace Slavidex
 {
     public class Program
     {
-        public const int itemSpacing = 44;
+        public const int detailedListItemSpacing = 44;
+        public const int tripCalcItemSpacing = 60;
         static void Main(string[] args)
         {
             Console.WriteLine("Debugging Slavidex:");
-            Functions.TripCalc(Balarsk.getLocation, Lupova.getLocation);
-            Functions.TripCalc(Lupova.getLocation, Balarsk.getLocation);
+            Functions.TripCalc(Balarsk.getLocation, Lupova.getLocation, RoundTrip: true);
         }
     }
 }

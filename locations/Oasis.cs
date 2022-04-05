@@ -15,6 +15,7 @@ namespace Slavidex.LocationsDB
                 _myLoc = new Location(myName, $"{myName} is the seedy underbelly of the drug trade in {Slaveria.myName}. Stay away from this place, brother.");
 
                 Merchant _temp = new Merchant("Drug Lord's Den", "A den of sin and iniquity. Pleasures can be bought or sold here if you don't fear for your soul");
+                _temp.setTripCalcFlag();
                 _temp.AddImportItem(new Listing(GameItem.Drug_Bag_Weed, 11000));
                 _temp.AddImportItem(new Listing(GameItem.Drug_Bag_Cocaine, 15000));
                 _temp.AddImportItem(new Listing(GameItem.Drug_Bag_Meth, 19000));

@@ -19,7 +19,7 @@ namespace Slavidex
 
         public override string ToString()
         {
-            return $"{numItems} {itemType} to {destination} ".PadRight(Program.itemSpacing) + $"{Helpers.SlavFormat(payment)}";
+            return $"{numItems} {itemType} to {destination} ".PadRight(Program.detailedListItemSpacing) + $"{Helpers.SlavFormat(payment)}";
         }
     }
 }

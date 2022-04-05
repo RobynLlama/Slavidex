@@ -15,6 +15,7 @@ namespace Slavidex.LocationsDB
                 _myLoc = new Location(myName, $"{myName} is a medium sized town and heart of {Slaveria.myName}'s brick and concrete production.");
 
                 Merchant _temp = new Merchant($"{myName} Building Materials Factory");
+                _temp.setTripCalcFlag();
                 _temp.AddExportItem(new Listing(GameItem.Pallet_Bricks, 78500));
                 _temp.AddExportItem(new Listing(GameItem.Pallet_Concrete, 49800));
                 _temp.AddImportItem(new Listing(GameItem.Sack_Stone, 2950));
@@ -75,12 +76,14 @@ namespace Slavidex.LocationsDB
                 _myLoc.AddVendor(_temp);
 
                 _temp = new Merchant("Shady Drug Dealer");
+                _temp.setTripCalcFlag();
                 _temp.AddExportItem(new Listing(GameItem.Drug_Bag_Weed, 7800));
                 _temp.AddImportItem(new Listing(GameItem.Drug_Brick_Hash, 90000));
 
                 _myLoc.AddVendor(_temp);
 
                 _temp = new Merchant("Polak Building Materials Merchant");
+                _temp.setTripCalcFlag();
                 _temp.AddExportItem(new Listing(GameItem.Pallet_Pipes, 68000));
                 _temp.AddExportItem(new Listing(GameItem.Barrel_Empty, 7400));
                 _temp.AddExportItem(new Listing(GameItem.Pallet_Scrapmetal, 20000));
@@ -99,7 +102,6 @@ namespace Slavidex.LocationsDB
                 _temp.AddImportItem(new Listing(GameItem.Pallet_Consumer_Goods, 135000));
 
                 _myLoc.AddVendor(_temp);
-                _myLoc.SetMaterialVendor(_temp);
 
                 
             }
