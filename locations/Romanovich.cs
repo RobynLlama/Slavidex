@@ -12,7 +12,7 @@ namespace Slavidex.LocationsDB
         {
             if (_myLoc == null)
             {
-                _myLoc = new Location(myName);
+                _myLoc = new Location(myName, $"{myName} is the hub of all fuel production in {Slaveria.myName} and always hungry for more crude oil or barrels to fill.");
 
                 Merchant _temp = new Merchant($"Refinery Loading Dock");
                 _temp.AddImportItem(new Listing(GameItem.Barrel_Crude, 27500));
