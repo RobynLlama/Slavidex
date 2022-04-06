@@ -71,6 +71,7 @@ namespace Slavidex.ItemsDB
         public static Item Pallet_Consumer_Goods = new Item ("Pallet of Consumer Goods", "A pallet of food and sundries");
         public static Item Pallet_Industrial_Goods = new Item ("Pallet of Industrial Goods", "A pallet of industrial materials");
         public static Item Metal_Sheet = new Item ("Metal Sheets", "Scrap sheet metal");
+        public static Item Plywood = new Item ("Plywood", "Old scrap wood");
         public static Item Barrel_Empty = new Item ("Empty Barrels", "A barrel with nothing in it");
         public static Item Barrel_Petrol = new Item ("Barrel of Gasoline", "A barrel filled to the brim with Gasoline");
         public static Item Barrel_Diesel = new Item ("Barrel of Diesel", "A barrel filled to bursting with Diesel fuel");
@@ -117,6 +118,7 @@ namespace Slavidex.ItemsDB
         public static Item Zakmat_Door = new Item ("Zakmat Door","Stops you falling out of the cab while driving");
         public static Item Jerkin_Radiator = new Item ("Jerkin Radiator","Has a higher coolant capacity than the RUS-310");
         public static Item Jerkin_Diesel_5L = new Item ("Jerkin 120HP Diesel Engine", "A fine fuel conserving engine");
+        public static Item Zakmat_Diesel_10L = new Item ("Zakmat 210HP Diesel Engine", "A real powerhouse of an engine suited to hauling even the largest loads");
         public static Item Zakmat_Hood = new Item ("Zakmat Hood", "Keeps the engine safe");
         public static Item Zakmat_Bumper = new Item ("Zakmat Bumper", "For bumping");
 
@@ -132,6 +134,9 @@ namespace Slavidex.ItemsDB
         public static Item Poloska_Rearshelf = new Item ("Poloska Rearshelf", "Divides the main cab from the engine bay");
         public static Item Poloska_Engine_Cover = new Item ("Poloska Engine Cover", "Keeps the engine safe");
 
+        /********** OTHER VEHICLE **********/
+        public static Item Fahrzeug_Wheel = new Item ("Menschen Fahrzeug 3K Wheel", "A tire for a small car");
+
         /********** SPECIAL **********/
         public static Item Delivery_Parcel = new Item ("Packages", "Deliver this to a destination for money");
         public static Item Vehicle_Repairs = new Item ("Repair Vehicle", "Fully repairs the current vehicle (purchased from the register at Vehicle Shops)");
@@ -140,7 +145,8 @@ namespace Slavidex.ItemsDB
         public static Item Car_Parts = new Item ("Scrap Car Parts", "Price Varies");
 
         /********** TRUCK BEDS **********/
-        public static Item Rus_310_Covered_Wooden_Bed = new Item ("Covered Wooden Bed", "A spacious bed with a covering to protect your cargo");
+        public static Item Rus_310_Covered_Wooden_Bed = new Item ("Covered Wooden Truck Bed", "A spacious bed with a covering to protect your cargo. Features an extended front edge to keep cargo from slipping towards the truck's cab while in motion");
+        public static Item Rus_310_Wooden_Bed = new Item ("Wooden Truck Bed", "A spacious wooden truck bed with higher sides than the standard. Features an extended front edge to keep cargo from slipping towards the truck's cab while in motion");
 
 
     }
