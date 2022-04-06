@@ -1,9 +1,0 @@
-/home/qtmims/Documents/C#/SlavCalc/bin/Debug/net472/TheSlaverianDex.exe.config
-/home/qtmims/Documents/C#/SlavCalc/bin/Debug/net472/TheSlaverianDex.exe
-/home/qtmims/Documents/C#/SlavCalc/bin/Debug/net472/TheSlaverianDex.pdb
-/home/qtmims/Documents/C#/SlavCalc/obj/Debug/net472/TheSlaverianDex.csprojAssemblyReference.cache
-/home/qtmims/Documents/C#/SlavCalc/obj/Debug/net472/TheSlaverianDex.AssemblyInfoInputs.cache
-/home/qtmims/Documents/C#/SlavCalc/obj/Debug/net472/TheSlaverianDex.AssemblyInfo.cs
-/home/qtmims/Documents/C#/SlavCalc/obj/Debug/net472/TheSlaverianDex.csproj.CoreCompileInputs.cache
-/home/qtmims/Documents/C#/SlavCalc/obj/Debug/net472/TheSlaverianDex.exe
-/home/qtmims/Documents/C#/SlavCalc/obj/Debug/net472/TheSlaverianDex.pdb

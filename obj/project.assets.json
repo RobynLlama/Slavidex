@@ -420,11 +420,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/qtmims/Documents/C#/SlavCalc/SlavCalc.csproj",
-      "projectName": "SlavCalc",
-      "projectPath": "/home/qtmims/Documents/C#/SlavCalc/SlavCalc.csproj",
+      "projectUniqueName": "/home/qtmims/Documents/C#/Slavidex/Slavidex.csproj",
+      "projectName": "Slavidex",
+      "projectPath": "/home/qtmims/Documents/C#/Slavidex/Slavidex.csproj",
       "packagesPath": "/home/qtmims/.nuget/packages/",
-      "outputPath": "/home/qtmims/Documents/C#/SlavCalc/obj/",
+      "outputPath": "/home/qtmims/Documents/C#/Slavidex/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/home/qtmims/.nuget/NuGet/NuGet.Config"
