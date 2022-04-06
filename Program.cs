@@ -12,9 +12,9 @@ namespace Slavidex
         static void Main(string[] args)
         {
             Console.WriteLine("Debugging Slavidex:");
-            OasisForestry.getLocation.DisplayInfo(true, true, true);
-            Tarasov.getLocation.DisplayInfo(true, true, true);
-            Functions.TripCalc(OasisForestry.getLocation, Balarsk.getLocation);
+            Novocherkuta.getLocation.DisplayInfo(true, true, true);
+            Functions.TripCalc(Novocherkuta.getLocation, Balarsk.getLocation, true);
+            Functions.TripCalc(Novocherkuta.getLocation, Lupova.getLocation, true);
         }
     }
 }
