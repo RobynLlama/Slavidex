@@ -78,6 +78,7 @@ namespace Slavidex.ItemsDB
         public static Item Sack_Salt = new Item ("Sack of Salt", "Some salt in a sack");
         public static Item Barrel_Petrol_Empty = new Item ("Empty Gasoline Barrel", "An empty barrel marked for filling with Gasoline");
         public static Item Barrel_Diesel_Empty = new Item ("Empty Diesel Barrel", "An empty barrel marked for filling with Diesel fuel");
+        public static Item Barrel_Crude = new Item ("Barrel of Oil", "A barrel of unrefined Texas Tea");
 
         /********** ILLEGAL GOODS **********/
         public static Item Drug_Bag_Weed = new Item ("Weed Baggie", "Grass, ganja, Mary Jane. Packed into a baggie for personal use");        

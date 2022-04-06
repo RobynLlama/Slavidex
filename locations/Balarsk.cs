@@ -1,26 +1,3 @@
-/*
-Todo:
-    Gurinsk
-    Jacek's
-    Stepanovich Coal Mine
-    Kolovy
-    Eastport
-    Tarasov Oil Field
-    Oasis
-    Lupova
-    Magyarfalu
-    Saversk
-    Lake Bogdan
-    Poniatowsk Food Factory
-    Novocherkuta
-    Sterlikin
-    Gonsk
-    Romanovich Oil Refinery
-    Dolgotov Saltflat
-    Iron Mine
-    Garbage Dump
-*/
-
 using Slavidex.ItemsDB;
 
 namespace Slavidex.LocationsDB
