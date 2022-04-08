@@ -136,6 +136,7 @@ namespace Slavidex.ItemsDB
 
         /********** OTHER VEHICLE **********/
         public static Item Fahrzeug_Wheel = new Item ("Menschen Fahrzeug 3K Wheel", "A tire for a small car");
+        public static Item Ludu_Wheel = new Item ("Ludu 5012 Wheel", "A tire for a small car");
 
         /********** SPECIAL **********/
         public static Item Delivery_Parcel = new Item ("Packages", "Deliver this to a destination for money");
