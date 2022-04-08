@@ -30,6 +30,7 @@ namespace Slavidex.LocationsDB
                 _temp.AddExportItem(new Listing(GameItem.Poloska_Rearshelf, 5500));
                 _temp.AddExportItem(new Listing(GameItem.Poloska_Bumper, 9800));
                 _temp.AddExportItem(new Listing(GameItem.Poloska_Door, 67000));
+                _temp.AddExportItem(new Listing(GameItem.Ludu_Wheel, 52000));
                 _temp.AddExportItem(new Listing(GameItem.Rus_310_Seat_Single, 11000));
                 _temp.AddExportItem(new Listing(GameItem.Rus_310_Seat_Passenger, 19000));
                 _temp.AddExportItem(new Listing(GameItem.Zakmat_Seat_Single, 12000));
